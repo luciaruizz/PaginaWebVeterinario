@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Guia Gatuna</title>
+<link rel="icon" type="image/x-icon" href="imgs/pata.png">
+<meta name="description" content="HTML5">
+<meta name="author" content="SMX">
+<link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+
+<header><h1><img src="imgs/pata.png" alt="logotipo">APRENDA SOBRE SUS GATOS</h1></header>
+
+<!-- Menú -->
+<nav>
+  <ul class="menu">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="necesidades.html">Que necesita</a></li>
+    <li><a href="curiosidades.html">Datos curiosos</a></li>
+    <li><a href="#contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+
+<br><br>
+ 
+  <!--FORMULARI-->
+<div class="pagina">
+  <h2>Formulario para dudas</h2>
+  <p>En el siguiente apartado <strong>puede enviarnos cualquier duda</strong> que le haya quedado tras leer nuestra página.</p>
+  <p>Para ello solo tiene que <strong>rellenar el siguiente formulario</strong> y redactar la duda que tenga en el cuadrado de texto. Una vez haya terminado solo deberá pulsar el botón de <strong>Enviar</strong> y le enviaremos un correo respondiendo a su duda.</p>
+<form action="mailto:luciaruizricoo@gmail.com" method="post" enctype="text/plain">
+	<section class="formulario">
+		<h3>Introduzca los siguientes datos</h3>
+		<input class="opciones" type="text" id="nombres" placeholder="Ingrese su Nombre"><br><br>
+		<input class="opciones" type="text" id="apellidos" placeholder="Ingrese sus Apellidos"><br><br>
+		<input class="opciones" type="text" id="email" placeholder="Ingrese su Correo"><br><br>
+
+		<p>¿Desea recibir recomendaciones al correo?</p>
+		<input type="radio" id="si" name="recibirofertas" value="si" checked>
+		<label class="sino" for="si">Si</label><br>
+
+		<input type="radio" id="no" name="recibirofertas" value="no">
+		<label class="sino" for="no">No</label><br><br><br>
+</section>
+<section class="formulario">
+	<h3>¿Cuál es su duda?</h3>
+		<textarea class="texto" name="comentario" id="comentario" placeholder="Ingrese su Duda"></textarea>
+		<input class="boton" type="submit" name="enviar" value="Enviar">
+		<br><br><br>
+	</section>
+
+</form>
+<br><br><br>
+</div>  
+<br><br><br>
+
+
+<footer>
+<p>Aprendizaje gatuno © 2023</p>
+</footer>
+
+</body>
+</html>

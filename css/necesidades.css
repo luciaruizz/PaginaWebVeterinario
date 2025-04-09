@@ -1,0 +1,239 @@
+/*Fuentes de Google Fonts usadas*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*Encabezado de la página*/
+header {
+  background-color: #4d3d3d;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+}
+
+header img {
+  float: left;
+  margin-right: 30px;
+  width: 50px;
+  height: auto;
+}
+
+/*Estilos generales*/
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://png.pngtree.com/background/20210715/original/pngtree-all-about-cat-wallpaper-picture-image_1310631.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*Estilos para el texto <strong> y <mark>*/
+strong {
+  color: tomato;
+}
+
+mark {
+  font: bold;
+  background-color: LightSalmon;
+  color: white;
+}
+
+/*Cuadro en el que está todo el contenido de la página*/
+.pagina {
+  background: linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.90));
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px #696969;
+  width: 80%;
+  margin: 20px auto;
+}
+
+h2 {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  background-color:  #735c5c;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/*Estilo de los enlaces*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*Menú para cambiar de página*/
+.menu {
+  font: 15px arial, sans_serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+  
+.menu li a:hover {
+  background-color: #ddd;
+}
+
+/*Estilo del desplegable*/
+.contenedor-acordeon{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.acordeon{
+    background: #fff;
+}
+
+.acordeon label{
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    background: #8c7070;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: all 300ms ease;
+}
+
+.acordeon label:hover{
+    background: #665252;
+}
+
+.acordeon .contenido-acordeon{
+    padding: 0px;
+    margin: 0px 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+
+.btn-acordeon:checked ~ .contenido-acordeon{
+    max-height: 600px;
+    padding: 15px 0px;
+}
+
+.btn-acordeon {
+  display: none;
+}
+
+
+/*Estilo de las secciones*/
+.seccion {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 50%;
+  margin: 15px auto;
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px #696969;
+}
+
+.seccion img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 2px 4px 10px #696969
+}
+
+.seccion h3 {
+  margin: 0;
+  color: #735c5c;
+}
+
+.seccion p {
+  margin-right: 15px;
+}
+
+.seccion:hover{
+  box-shadow: 2px 4px 10px #696969;
+  transform: scale(1.02);
+}
+
+/*cuadros de los tipos de comida*/
+.contenedor {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor .tabla {
+  width: 30%;
+  height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px #696969;
+  padding: 60px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.contenedor .tabla:hover {
+  background: #8c7070;
+  color: white;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.factorescomida {
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px #696969;
+  padding: 30px;
+  background-color: #f1f1f1;
+}
+
+h4 {
+  color: #735c5c;
+}
+
+.video {
+  padding: 30px;
+  box-shadow: 2px 4px 10px #696969;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #f1f1f1;
+}
+
+.video:hover {
+  box-shadow: 2px 4px 10px #696969;
+  transform: scale(1.02);
+}
+
+footer {
+  font: bold 20px arial, sans_serif;
+  color: white;
+  background-color: #4d3d3d;
+  text-align: center;
+  padding: 10px;
+}

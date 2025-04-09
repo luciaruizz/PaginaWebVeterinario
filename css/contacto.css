@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+header {
+  background-color: #4d3d3d;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+}
+
+header img {
+  float: left;
+  margin-right: 30px;
+  width: 50px;
+  height: auto;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://png.pngtree.com/background/20210715/original/pngtree-all-about-cat-wallpaper-picture-image_1310631.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+strong {
+  color: tomato;
+}
+
+
+.pagina {
+  background: linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.90));
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px #696969;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.menu {
+  font: 15px arial, sans_serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+  
+.menu li a:hover {
+  background-color: #ddd;
+}
+/* Estilos para las secciones */
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.conjunto {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.seccion {
+  width: 50%;
+  margin: 1%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+h2 {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  background-color:  #735c5c;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.formulario {
+  width: 400px;
+  background:#f1f1f1;
+  padding: 30px;
+  margin: auto;
+  margin-top:20px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 2px 4px 10px #696969;
+}
+
+.formulario h3 {
+  font-size: 22px;
+  color: #4d3d3d;
+  margin-bottom: 20px;
+}
+
+.opciones {
+  width: 80%;
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  border: 1px solid #4d3d3d;
+  font-size: 18px;
+
+}
+
+.formulario p {
+  color: #4d3d3d;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.formulario .boton {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.formulario .sino {
+  color: #4d3d3d;
+}
+
+.formulario .texto {
+  max-width: 390px;
+  min-width: 390px;
+  min-height: 140px;
+  max-height: 150px;
+}
+
+.formulario .opciones:hover {
+  box-shadow: 2px 4px 10px #696969;
+  transform: scale(1.02);
+}
+
+.formulario .texto:hover {
+  box-shadow: 2px 4px 10px #696969;
+  transform: scale(1.02);
+}
+
+.formulario .boton:hover {
+  box-shadow: 2px 4px 10px #696969;
+  transform: scale(1.02);
+}
+
+footer {
+  font: bold 20px arial, sans_serif;
+  color: white;
+  background-color: #4d3d3d;
+  text-align: center;
+  padding: 10px;
+}

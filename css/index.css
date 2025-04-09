@@ -1,0 +1,214 @@
+/*Fuentes de Google Fonts usadas*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*Encabezado de la página*/
+header {
+  background-color: #4d3d3d;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+}
+
+header img {
+  float: left;
+  margin-right: 30px;
+  width: 50px;
+  height: auto;
+}
+
+/*Estilos generales*/
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://png.pngtree.com/background/20210715/original/pngtree-all-about-cat-wallpaper-picture-image_1310631.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*Estilos para el texto <strong> y <mark>*/
+strong {
+  color: tomato;
+}
+
+mark {
+  font: bold;
+  background-color: LightSalmon;
+  color: white;
+}
+
+/*Cuadro en el que está todo el contenido de la página*/
+.pagina {
+  background: linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.90));
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px #696969;
+  width: 80%;
+  margin: 20px auto;
+}
+
+h2 {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  background-color:  #735c5c;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/*Menú para cambiar de página*/
+.menu {
+  font: 15px arial, sans_serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+  
+.menu li a:hover {
+  background-color: #ddd;
+}
+
+
+/* Estilos para las secciones del "Contenido a explorar" */
+.contenedor {
+  padding: 15px 9%;
+}
+
+.contenedor .conjunto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 15px;
+}
+
+.contenedor .conjunto .caja {
+  border-radius: 30px;
+  box-shadow: 2px 4px 10px #696969;
+  background: #f1f1f1;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.contenedor .conjunto .caja img {
+  height: auto;
+  border-radius: 30px;
+  box-shadow: 2px 4px 10px #696969
+}
+
+.contenedor .conjunto .caja h3 {
+  color: #735c5c;
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+.contenedor .conjunto .caja p{
+  color: #777; 
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.contenedor .conjunto .caja:hover{
+  box-shadow: 2px 4px 10px #696969;
+  transform: scale(1.02);
+}
+  
+
+p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*formatos para el cuadrado del video*/
+.video {
+  padding: 30px;
+  box-shadow: 2px 4px 10px #696969;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #f1f1f1;
+}
+
+iframe {
+  border: none;
+}
+
+
+/*Formato de las Preguntas frecuentes (contenido desplegable)*/
+.contenedor-acordeon{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.acordeon{
+    background: #fff;
+}
+.acordeon label{
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    background: #8c7070;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: all 300ms ease;
+}
+.acordeon label:hover{
+    background: #665252;
+}
+.acordeon .contenido-acordeon{
+    padding: 0px;
+    margin: 0px 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+
+.btn-acordeon:checked ~ .contenido-acordeon{
+    max-height: 600px;
+    padding: 15px 0px;
+}
+
+.btn-acordeon {
+  display: none;
+}
+
+
+/*Pie de página*/
+
+footer {
+  font: bold 20px arial, sans_serif;
+  color: white;
+  background-color: #4d3d3d;
+  text-align: center;
+  padding: 10px;
+}
