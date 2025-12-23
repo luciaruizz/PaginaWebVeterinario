@@ -1,4 +1,4 @@
-##💻​🐈‍⬛​ Página web 'Sobre gatos'
+### 💻​🐈‍⬛​ Página web 'Sobre gatos'
 Proyecto que realicé en el grado medio de <ins>Sistemas Microinformáticos en Red</ins> que consiste en una página web HTML que incluye:
 * Distintas páginas en el menú
 * Formulario de contacto
